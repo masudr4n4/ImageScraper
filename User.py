@@ -69,7 +69,7 @@ def login():
   Mail = input('Enter your email address: ')
   password = input('Enter you password: ')
   #s.log_in(Mail,password)
-  if s.log_in(Mail,password) == False:
+  if s.log_in(Mail,password) != True:
     login()
 
 def main():
