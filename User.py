@@ -68,7 +68,7 @@ def login():
   s = User()
   Mail = input('Enter your email address: ')
   password = input('Enter you password: ')
-  s.log_in(Mail,password)
+  #s.log_in(Mail,password)
   if s.log_in(Mail,password) == False:
     login()
 
